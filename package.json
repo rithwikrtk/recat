@@ -1,0 +1,27 @@
+{
+  "name": "recat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w",
+    "dev:run": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rithwikrtk/recat.git"
+  },
+  "author": "rithwikrtk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rithwikrtk/recat/issues"
+  },
+  "homepage": "https://github.com/rithwikrtk/recat#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
